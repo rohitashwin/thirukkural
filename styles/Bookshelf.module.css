@@ -1,0 +1,81 @@
+.bookshelf {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 10px;
+  place-items: center;
+  height: 50%;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.book {
+	height: 100%;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 7rem;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: flex-start;
+	padding: 1rem 3rem;
+	opacity: 0.85;
+}
+
+.book:hover {
+	opacity: 1;
+	transition: all 0.2s ease-in-out;
+}
+
+.book:nth-child(1) {
+	border-radius: 20px 10px 10px 20px;
+	background-image: url('/Virtue.png');
+}
+
+.book:nth-child(2) {
+	border-radius: 10px 10px 10px 10px;
+	background-image: url('/Wealth.png');
+}
+
+.book:nth-child(3) {
+	border-radius: 10px 20px 20px 10px;
+	background-image: url('/Love.png');
+}
+
+.book_number {
+	margin: 0;
+}
+
+.book_name_container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 100;
+	color: rgb(100, 100, 100);
+}
+
+.book_name_container p {
+	margin: 10px;
+	margin-bottom: 0;
+}
+
+.book_chapter_count {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	color: rgb(100, 100, 100);
+}
+
+.book_chapter_count p {
+	margin: 0;
+}
