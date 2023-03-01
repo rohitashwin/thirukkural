@@ -8,7 +8,7 @@ export default function Kural() {
 	const { number } = router.query;
 	let kuralNumber = parseInt(number);
 	if (kuralNumber < 1 || kuralNumber > 1330) {
-		Router.push("/404");
+		return null;
 	}
 	if (!router.isReady) return <></>;
 	return (

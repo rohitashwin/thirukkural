@@ -169,5 +169,6 @@ export default function ChapterTitle({
       chapterTitle = "The End";
     }
   }
-  return <Header title={`Chapter ${chapterNumber}: ${chapterTitle}`}></Header>;
+  return <Header title={`Chapter ${chapterNumber}: ${chapterTitle}`}>
+  </Header>;
 }

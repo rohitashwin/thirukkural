@@ -38,7 +38,7 @@ export default function KOTD() {
         <div className={styles.kotdLinkContainer}>
           <Link className={styles.kotdLink} href={`/kural/${cookie.kural}`}>
             <p>Go to Definition</p>
-			<Image src="/right_arrow.svg" width={20} height={20} className={styles.right_arrow}/>
+			<Image src="/resources/right_arrow.svg" width={20} height={20} className={styles.right_arrow}/>
           </Link>
         </div>
       </div>

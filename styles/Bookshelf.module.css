@@ -34,17 +34,17 @@
 
 .book:nth-child(1) {
 	border-radius: 20px 10px 10px 20px;
-	background-image: url('/Virtue.png');
+	background-image: url('/resources/Virtue.png');
 }
 
 .book:nth-child(2) {
 	border-radius: 10px 10px 10px 10px;
-	background-image: url('/Wealth.png');
+	background-image: url('/resources/Wealth.png');
 }
 
 .book:nth-child(3) {
 	border-radius: 10px 20px 20px 10px;
-	background-image: url('/Love.png');
+	background-image: url('/resources/Love.png');
 }
 
 .book_number {
